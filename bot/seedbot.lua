@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {119408525,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[☜★☞απσπφ๓σϑζ☜★☞ ΤG v2 - Open Source
@@ -237,12 +237,12 @@ Ali beta 💔@VAMPAYER10💔
 Ni๓α απσπφ๓σϑζ 💔@anonymou3nk💔
 
 Special thanks to:
-Ali beta
-nima anonymous
-mohmmad mehdi
+Ali beta📶
+nima anonymous📶
+mohmmad mehdi📶
 
 Our channels:
-Persian: @bartarhack
+Persian: @bartarhack📶
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -362,10 +362,10 @@ This command will send text to [group_id]
 ❕☜★☞απσπφ๓σϑζ☜★☞نشان دادن لیست دستورات ربات📝
 
 !lock [member|name|bots|leave] 
-❕[قــــفـــل [اعضاء|اسم گروه|ربات ها|رفتن از گروه🔒 
+❕[قــــفـــل [اعضاء★اسم گروه★ربات ها★رفتن از گروه🔒 
 
 !unlock [member|name|bots|leave]
-❕[بـــــــاز کـــردن قـــفــل [اعضاء|اسم گروه|ربات ها|رفتن از گروه🔓
+❕[بـــــــازکـــردن قـــفــل[اعضاء★اسم گروه★ربات ها★رفتن از گروه🔓
 
 !set rules [text]
 ❕تنظیم [متن] به عنوان قوانین📝
@@ -401,10 +401,10 @@ Save [text] as [value]
 Returns text of [value]
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+❕[پاک کردن [لیست مدیران★قوانین★درباره گروه❌
 
 !res [username]
-Returns user id
+❕دراوردن مشخصات فرد موردنظر بوسیله یوزرنیم📝
 
 !log
 Will return group logs
