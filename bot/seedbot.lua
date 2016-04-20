@@ -229,27 +229,20 @@ function create_config( )
     sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[☜★☞απσπφ๓σϑζ☜★☞ ΤG v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
-
 Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
+Ali beta 💔@VAMPAYER10💔
+Ni๓α απσπφ๓σϑζ 💔@anonymou3nk💔
 
 Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
+Ali beta
+nima anonymous
+mohmmad mehdi
 
 Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
+Persian: @bartarhack
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -324,79 +317,79 @@ This command will send text to [group_id]
 
 ]],
     help_text = [[
-Commands list :
+☜★☞απσπφ๓σϑζ☜★☞ hεℓρ list📝 :
 
 !kick [username|id]
-You can also do it by reply
+❕حذف فرد بوسیله❕ایدی یا یوزرنیم👊
 
 !ban [ username|id]
-You can also do it by reply
+❕بن کردن فرد بوسیله رپلای👊
 
 !unban [id]
-You can also do it by reply
+❕انبن کردن فرد بوسیله رپلای✊
 
 !who
-Members list
+❕لیست اعضا📝
 
 !modlist
-Moderators list
+❕لیست مدیران📝
 
 !promote [username]
-Promote someone
+❕دادن مقام به شخص👍
 
 !demote [username]
-Demote someone
+❕حذف مقام شخص👎
 
 !kickme
-Will kick user
+❕من رو حذف کن❌
 
 !about
-Group description
+❕درباره گروه📝
 
 !setphoto
-Set and locks group photo
+❕تنظیم و قفل عکس گروه🌇
 
 !setname [name]
-Set group name
+❕تنظیم اسم گروه📝
 
 !rules
-Group rules
+❕قوانین گروه📝
 
 !id
-Return group id or user id
+❕نشان دادن ایدی گروه یا شخص🆔
 
 !help
-Get commands list
+❕☜★☞απσπφ๓σϑζ☜★☞نشان دادن لیست دستورات ربات📝
 
 !lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
+❕[قــــفـــل [اعضاء|اسم گروه|ربات ها|رفتن از گروه🔒 
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+❕[بـــــــاز کـــردن قـــفــل [اعضاء|اسم گروه|ربات ها|رفتن از گروه🔓
 
 !set rules [text]
-Set [text] as rules
+❕تنظیم [متن] به عنوان قوانین📝
 
 !set about [text]
-Set [text] as about
+❕تنظیم [متن] به عنوان درباره گروه📝
 
 !settings
-Returns group settings
+❕دیدن تنظیمات فعلی گروه
 
 !newlink
-Create/revoke your group link
+❕ساخت لینک جدید برای گروه خودتان🆕
 
 !link
-Returns group link
+❕نشان دادن لینک گروه📝
 
 !owner
-Returns group owner id
+❕نشان دادن صاحب گروه👮
 
 !setowner [id]
-Will set id as owner
+❕تنظیم صاحب گروه بوسیله ایدی👮
 
 !setflood [value]
-Set [value] as flood sensitivity
+❕تنظیم [عدد] حساسیت اسپم⚠
 
 !stats
 Simple message statistics
@@ -417,7 +410,7 @@ Returns user id
 Will return group logs
 
 !banlist
-Will return group ban list
+❕نشان دادن لیست افراد بن شده📝
 
 » U can use both "/" and "!" 
 
