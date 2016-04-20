@@ -392,7 +392,7 @@ This command will send text to [group_id]
 ❕تنظیم [عدد] حساسیت اسپم⚠
 
 !stats
-Simple message statistics
+❕امار افراد و گروه📝
 
 !save [value] [text]
 Save [text] as [value]
