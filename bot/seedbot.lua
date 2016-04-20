@@ -410,7 +410,34 @@ Returns text of [value]
 Will return group logs
 
 !banlist
-❕نشان دادن لیست افراد بن شده📝
+❕نشان دادن لیست افراد بن شده📝 
+ـــــــــ📝badwords & block📝ـــــــــــــ
+!badwords
+❕لیست کلمات فیلترشده📝
+!remword
+❕حذف کلمه از لیست فیلتر📝
+!addword
+❕اضافه کردن کلمه به لیست فیلتر📝
+!clearbadwords
+❕حذف همه کلمات فیلتر شده📝
+ــــــــــ📮feedback & funtime💺ــــــــــ
+!web [https://..]
+❕شات گرفتن از سایت مورد نظر🌆
+!feedback
+❕ارسال نظر به سازنده📮
+!src [text]
+❕سرچ [متن] در گوگل
+!insta [username]
+❕مشخصات اینستاگرام شخص موردنظر بوسیله یوزرنیم💓
+!aparat [text]
+❕جستجوی فیلم در آپارات📺
+!prytime [city]
+❕اذان [شهر] موردنظر🕐
+!conv [text]
+❕تبدیل [متن] به عکس↹
+!clash [clan★member
+❕[مشخصات [ممبر★کولیدر★کلن
+
 
 » U can use both "/" and "!" 
 
