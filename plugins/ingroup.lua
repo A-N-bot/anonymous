@@ -204,7 +204,7 @@ local function show_group_settingsmod(msg, data, target)
     	leave_ban = data[tostring(msg.to.id)]['settings']['leave_ban']
    	end
   local settings = data[tostring(target)]['settings']
-  local text = "Group settings:\nLock group name : "..settings.lock_name.."\nLock group photo : "..settings.lock_photo.."\nLock group member : "..settings.lock_member.."\nLock group leave : "..leave_ban.."\nflood sensitivity : "..NUM_MSG_MAX.."\nBot protection : "..bots_protection--"\nPublic: "..public
+  local text = "📝Group settings📝:\n💡Lock group name : "..settings.lock_name.."\n💡Lock group photo : "..settings.lock_photo.."\n💡Lock group member : "..settings.lock_member.."\n💡Lock group leave : "..leave_ban.."\n💡flood sensitivity : "..NUM_MSG_MAX.."\n💡Bot protection : "..bots_protection--"\nPublic: "..public
   return text
 end
 
@@ -1054,7 +1054,7 @@ local function run(msg, matches)
       local function callback (extra , success, result)
         local receiver = 'chat#'..msg.to.id
         if success == 0 then
-           return send_large_msg(receiver, '*Error: Invite link failed* \nReason: Not creator.')
+           return send_large_msg(receiver, '*Error: ☞Invite link failed❕ \n☞Reason: Not creator😢.')
         end
         send_large_msg(receiver, "Created a new link")
         data[tostring(msg.to.id)]['settings']['set_link'] = result
@@ -1070,10 +1070,10 @@ local function run(msg, matches)
       end
       local group_link = data[tostring(msg.to.id)]['settings']['set_link']
       if not group_link then 
-        return "Create a link using /newlink first !"
+        return "Create a link using⇝ newlink first !"
       end
        savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested group link ["..group_link.."]")
-      return "Group link:\n"..group_link
+      return "💔Group link📝:\n"..group_link
     end
     if matches[1] == 'setowner' and matches[2] then
       if not is_owner(msg) then
@@ -1097,11 +1097,11 @@ local function run(msg, matches)
       local group_owner = data[tostring(msg.to.id)]['set_owner']
       local user_info = redis:hgetall('user:'..group_owner)
       if not group_owner then 
-        return "no owner,ask admins in support groups to set owner for your group"
+        return "no owner⇝ask admins in support groups to set owner for your group"
       end
       savelog(msg.to.id, name_log.." ["..msg.from.id.."] used /owner")
       if user_info.username then
-      	return "Group onwer is @"..user_info.username.." ["..group_owner.."]"
+      	return "👮Group onwer is @"..user_info.username.." ["..group_owner.."]"
       else
       	return "Group owner is ["..group_owner..']'
       end
@@ -1145,7 +1145,7 @@ local function run(msg, matches)
         if next(data[tostring(msg.to.id)]['moderators']) == nil then --fix way
           return 'No moderator in this group.'
         end
-        local message = '\nList of moderators for ' .. string.gsub(msg.to.print_name, '_', ' ') .. ':\n'
+        local message = '\n📝List of moderators for ' .. string.gsub(msg.to.print_name, '_', ' ') .. ':\n'
         for k,v in pairs(data[tostring(msg.to.id)]['moderators']) do
           data[tostring(msg.to.id)]['moderators'][tostring(k)] = nil
           save_data(_config.moderation.data, data)
