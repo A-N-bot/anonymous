@@ -153,7 +153,7 @@ function match_plugin(plugin, plugin_name, msg)
   for k, pattern in pairs(plugin.patterns) do
     local matches = match_pattern(pattern, msg.text)
     if matches then
-      print("msg matches: ", pattern)
+      print("msg matches: ", pattiern)
 
       if is_plugin_disabled_on_chat(plugin_name, receiver) then
         return nil
@@ -435,9 +435,8 @@ Will return group logs
 ❕اذان [شهر] موردنظر🕐
 !conv [text]
 ❕تبدیل [متن] به عکس↹
-!clash [clan★member
-❕[مشخصات [ممبر★کولیدر★کلن
-
+!clash [goldtag]
+❕مشخصات کلن مورد نظربوسیله گلدتاج📝
 
 » U can use both "/" and "!" 
 
