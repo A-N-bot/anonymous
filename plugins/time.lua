@@ -2,8 +2,8 @@
 #
 #    Time And Date
 #
-#    @Dragon_born
-#	@GPMod
+#    @anonymou3nk
+#	@ch_anonymou3tg
 #
 #
 ]]
