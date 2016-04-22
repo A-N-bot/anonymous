@@ -1,14 +1,13 @@
 --[[
 
 #
-#       @CH_anonymou3TG
+#       @ch_anonymou3tg
 #   @anonymou3nk
 #
 
 ]]
 
-local apikey = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjcyMzA4NDc4LTM3ZTQtNDQzMy05YTA2LWVhNGU1MTI4NDA0ZiIsImlhdCI6MTQ1OTk2NTExOCwic3ViIjoiZGV2ZWxvcGVyLzc2ZmI2ZDA0LTQwZjYtMThiMi1mYmU2LTA5MTcyMjZmYjhhNSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjg3LjIzNi4yMTQuNDgiXSwidHlwZSI6ImNsaWVudCJ9XX0.zX0I_QXIPx334FtD9QtjsnfFInXJyCQ-Hx-st7Aq422Cijf1G_z96Qs2UL2DbuvOktEInT7EoKf78EBmwJDvkA
-'Enter Your Clash API here' 
+local apikey = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjcyMzA4NDc4LTM3ZTQtNDQzMy05YTA2LWVhNGU1MTI4NDA0ZiIsImlhdCI6MTQ1OTk2NTExOCwic3ViIjoiZGV2ZWxvcGVyLzc2ZmI2ZDA0LTQwZjYtMThiMi1mYmU2LTA5MTcyMjZmYjhhNSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjg3LjIzNi4yMTQuNDgiXSwidHlwZSI6ImNsaWVudCJ9XX0.zX0I_QXIPx334FtD9QtjsnfFInXJyCQ-Hx-st7Aq422Cijf1G_z96Qs2UL2DbuvOktEInT7EoKf78EBmwJDvkA"
 local function run(msg, matches)
  if matches[1]:lower() == 'clan' or matches[1]:lower() == 'clash' or matches[1]:lower() == 'clantag' or matches[1]:lower() == 'tag' then
   local clantag = matches[2]
@@ -35,7 +34,7 @@ if jdat.reason then
      text = text..'\nClan Points: '.. jdat.clanPoints
      text = text..'\nRequired Trophies: '.. jdat.requiredTrophies
      text = text..'\nMembers: '.. jdat.members
-     text = text..'\n\n@ch_anonymou3TG Team'
+     text = text..'\n\n@ch_anonymou3tg Team'
      cmd:close()
   return text
  end
