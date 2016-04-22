@@ -239,14 +239,15 @@ function create_config( )
 Our team ©!
 Ali beta 💔@VAMPAYER10💔
 Ni๓α απσπφ๓σϑζ 💔@anonymou3nk💔
+Amir απσπφ๓σϑζ 💔@anonymou3nk2💔
 ➖➖➖➖➖➖➖➖➖➖➖➖
 ® Special thanks to ®:
 Ali beta📶
-nima anonymous📶
-mohmmad mehdi📶
+Nima anonymous📶
+Amir anonymous📶
 ➖➖➖➖➖➖➖➖➖➖➖➖
 Our channels:
-Persian: @bartarhack📶
+Persian: @ch_anonymou3tg📶
 ➖➖➖➖➖➖➖➖➖➖➖➖
 ]],
     help_text_realm = [[
@@ -351,6 +352,8 @@ This command will send text to [group_id]
 ❕قوانین گروه📝
 !id
 ❕نشان دادن ایدی گروه یا شخص🆔
+!info
+❕نشان دادن اطلاعات کامل شخص📝
 !help
 ❕☜★☞απσπφ๓σϑζ☜★☞نشان دادن لیست دستورات ربات📝
 ➖➖➖➖➖➖➖➖➖➖➖
@@ -431,7 +434,7 @@ Will return group logs
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 💔شما میتوانید با استفاده از«!»و«/»به ربات دستور بدهید❕
 💔My id🔯@anonymou3nk🔯
-💔Channel id 🔯@bartarhack🔯
+💔Channel id 🔯@ch_anonymou3tg🔯
 💔Bot id 🔯anonymou3TG🔯
 
 ]]
